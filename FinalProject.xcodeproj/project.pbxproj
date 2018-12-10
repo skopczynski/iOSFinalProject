@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56E53EC2CEACFE55B5D7BFC8 /* libPods-FinalProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E9AABAE78399CDAE62652 /* libPods-FinalProject.a */; };
 		E34F5B6321ACA02900D2F205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5B6221ACA02900D2F205 /* AppDelegate.swift */; };
 		E34F5B6521ACA02900D2F205 /* NewWalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34F5B6421ACA02900D2F205 /* NewWalkViewController.swift */; };
 		E34F5B6821ACA02900D2F205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F5B6621ACA02900D2F205 /* Main.storyboard */; };
 		E34F5B6B21ACA02900D2F205 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34F5B6921ACA02900D2F205 /* FinalProject.xcdatamodeld */; };
 		E34F5B6D21ACA02B00D2F205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34F5B6C21ACA02B00D2F205 /* Assets.xcassets */; };
 		E34F5B7021ACA02B00D2F205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34F5B6E21ACA02B00D2F205 /* LaunchScreen.storyboard */; };
-		E34F5B8021ACA20A00D2F205 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34F5B7F21ACA20A00D2F205 /* HealthKit.framework */; };
 		E394ABC021BEF04000B3DD12 /* AllWalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394ABBF21BEF04000B3DD12 /* AllWalksViewController.swift */; };
 		E394ABC221BEFA2000B3DD12 /* WalkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394ABC121BEFA2000B3DD12 /* WalkDetailViewController.swift */; };
 		E3B924BE21BDB16A00A5F19E /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B924BC21BDB16A00A5F19E /* Walk+CoreDataProperties.swift */; };
@@ -23,10 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C0A075B10E61BB2A4D43A4C /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
-		398E9AABAE78399CDAE62652 /* libPods-FinalProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinalProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70600D0D7DF9DB36A80D60A /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
-		E34F5B5F21ACA02900D2F205 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34F5B6221ACA02900D2F205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34F5B6421ACA02900D2F205 /* NewWalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWalkViewController.swift; sourceTree = "<group>"; };
 		E34F5B6721ACA02900D2F205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,9 +28,9 @@
 		E34F5B6C21ACA02B00D2F205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34F5B6F21ACA02B00D2F205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34F5B7121ACA02B00D2F205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E34F5B7F21ACA20A00D2F205 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		E394ABBF21BEF04000B3DD12 /* AllWalksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWalksViewController.swift; sourceTree = "<group>"; };
 		E394ABC121BEFA2000B3DD12 /* WalkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkDetailViewController.swift; sourceTree = "<group>"; };
+		E394ABC321BF096F00B3DD12 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FinalProject.app; path = "/Users/skopczynski/Desktop/CPSC315/FinalProject/build/Debug-iphoneos/FinalProject.app"; sourceTree = "<absolute>"; };
 		E3B924BC21BDB16A00A5F19E /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Walk+CoreDataProperties.swift"; path = "/Users/skopczynski/Desktop/CPSC315/FinalProject/FinalProject/Walk+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		E3B924BD21BDB16A00A5F19E /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Walk+CoreDataClass.swift"; path = "/Users/skopczynski/Desktop/CPSC315/FinalProject/FinalProject/Walk+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		E3B924C021BDC17100A5F19E /* SaveWalkViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveWalkViewContrller.swift; sourceTree = "<group>"; };
@@ -47,39 +41,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34F5B8021ACA20A00D2F205 /* HealthKit.framework in Frameworks */,
-				56E53EC2CEACFE55B5D7BFC8 /* libPods-FinalProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC4A763C9CEC37E41069FF2A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C0A075B10E61BB2A4D43A4C /* Pods-FinalProject.debug.xcconfig */,
-				A70600D0D7DF9DB36A80D60A /* Pods-FinalProject.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E34F5B5621ACA02900D2F205 = {
 			isa = PBXGroup;
 			children = (
 				E34F5B6121ACA02900D2F205 /* FinalProject */,
-				E34F5B6021ACA02900D2F205 /* Products */,
-				E34F5B7821ACA0E500D2F205 /* Frameworks */,
-				DC4A763C9CEC37E41069FF2A /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		E34F5B6021ACA02900D2F205 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E34F5B5F21ACA02900D2F205 /* FinalProject.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E34F5B6121ACA02900D2F205 /* FinalProject */ = {
@@ -101,15 +73,6 @@
 			path = FinalProject;
 			sourceTree = "<group>";
 		};
-		E34F5B7821ACA0E500D2F205 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E34F5B7F21ACA20A00D2F205 /* HealthKit.framework */,
-				398E9AABAE78399CDAE62652 /* libPods-FinalProject.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,7 +92,7 @@
 			);
 			name = FinalProject;
 			productName = FinalProject;
-			productReference = E34F5B5F21ACA02900D2F205 /* FinalProject.app */;
+			productReference = E394ABC321BF096F00B3DD12 /* FinalProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +124,7 @@
 				Base,
 			);
 			mainGroup = E34F5B5621ACA02900D2F205;
-			productRefGroup = E34F5B6021ACA02900D2F205 /* Products */;
+			productRefGroup = E34F5B5621ACA02900D2F205;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -388,7 +351,6 @@
 		};
 		E34F5B7521ACA02B00D2F205 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C0A075B10E61BB2A4D43A4C /* Pods-FinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinalProject/FinalProject.entitlements;
@@ -408,7 +370,6 @@
 		};
 		E34F5B7621ACA02B00D2F205 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70600D0D7DF9DB36A80D60A /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinalProject/FinalProject.entitlements;

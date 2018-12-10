@@ -38,7 +38,7 @@ class AllWalksViewController: UITableViewController{
         let walk = walkArray[indexPath.row]
         calories = (0.035 * 76.4303143)
         calories! +=  ((walk.distance * 1609 / Double(walk.duration)) / 1.7018) * (0.029) * (76.4303143)
-        cell.textLabel?.text = "Distance: \(String(format: "%.2f", walk.distance)) Time: \(walk.duration) Calories: \(String(format: "%.2f", calories!))"
+        cell.textLabel?.text = "Distance: \(String(format: "%.2f", walk.distance)) Time: \(String(format: "%02d", walk.duration / 3600)):\(String(format: "%02d", (walk.duration % 3600) / 60 )):\(String(format: "%02d", (walk.duration % 3600) % 60)) Calories: \(String(format: "%.2f", calories!))"
         return cell
     }
     
